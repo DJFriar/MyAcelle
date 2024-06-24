@@ -1,0 +1,16 @@
+body {
+    font-size: 17px;
+    line-height: 1.8;
+    font-family: Roboto;
+    background-color: #f3f2ef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    padding-right: 0px;
+}
+a {
+    color: #136bf5;
+}
+footer {
+    font-size: 16px;
+}

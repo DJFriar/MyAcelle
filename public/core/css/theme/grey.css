@@ -1,0 +1,88 @@
+.theme-grey .navbar-main {
+    background-color: rgba(40,40,40,0.85)!important;
+}
+.theme-grey .btn-info {
+    background-color: #c4c4c4;
+    border-color: #c4c4c4;
+}
+.theme-grey .btn-info:hover {
+    background-color: #a7a7a7;
+    border-color: #a7a7a7;
+}
+.theme-grey .btn-primary {
+    background-color: #56524f;
+    border-color: #56524f;
+}
+.theme-grey .btn-primary:hover {
+    background-color: #737373;
+    border-color: #737373;
+}
+.theme-grey a:not(.btn, .dropdown-item, .nav-link) {
+    color: #737373;
+}
+.theme-grey a:not(.btn, .dropdown-item, .nav-link):hover {
+    color: #000;
+}
+.theme-grey .progress-bar-info {
+    background-color: #888;
+}
+.theme-grey .page-item.active .page-link {
+    background-color: #f1f1f1;
+    border-color:#666;
+}
+.theme-grey .dropdown-menu li:hover > a {
+    background-color: #f2f2f2;
+}
+.theme-grey .dropdown-menu > .active > a,
+.theme-grey .dropdown-menu > .active > a:hover,
+.theme-grey .dropdown-menu > .active > a:focus {
+    background-color: #f0f0f0;
+}
+.theme-grey .nav-tabs > li.active > a,
+.theme-grey .nav-tabs > li.active > a:hover,
+.theme-grey .nav-tabs > li.active > a:focus {
+    border-bottom-color: #555;
+}
+.theme-grey .select2-results__option[aria-selected=false]:hover {
+    background-color: #f2f2f2!important;
+}
+.theme-grey .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background: #f0f0f0 !important;
+}
+.theme-grey .progress-bar {
+    background-color: #666;
+}
+.theme-grey .nav-tabs > li.active > a.nav-link,
+.theme-grey .nav-tabs > li > a.nav-link.active,
+.theme-grey .nav-tabs > li > a.nav-link:hover,
+.theme-grey .nav-tabs > li > a.nav-link:focus {
+    border-bottom-color: #666;
+}
+body.mode-dark.theme-grey,
+body.mode-dark.theme-grey .modal-content,
+body.mode-dark.theme-grey .dropdown-menu li,
+body.mode-dark.theme-grey .select2-dropdown,
+body.mode-dark.theme-grey .autofill-dropbox-container,
+body.mode-dark.theme-grey .top-sticky-content,
+body.mode-dark.theme-grey .search-results,
+body.mode-dark.theme-grey .template-create-sticky {
+    background-color: rgb(27, 27, 27);
+}
+body.mode-dark.theme-grey .navbar-main {
+    background-color: rgba(18, 18, 18, 0.5)!important;
+}
+body.mode-dark.theme-grey a:not(.btn, .dropdown-item, .nav-link):hover {
+    color: #b4b4b4;
+}
+.theme-grey .switchery[type="checkbox"]:checked ~ .check-symbol:before,
+.theme-grey .styled[type="checkbox"]:checked ~ .check-symbol:before {
+    background-color: #737373;
+    border-color: #737373;
+}
+.theme-grey .styled[type="radio"]:checked ~ .check-symbol:after {
+    background-color: #737373;
+}
+.theme-grey.bg-slate-800 {
+    background-color: #3b3938;
+    border-color: #3b3938;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "rdok/elasticemail-php",
+  "description": "Integration to the Elastic Email API http://api.elasticemail.com/public/help",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Rizart Dokollari",
+      "email": "r.dokollari@gmail.com",
+      "homepage": "https://rdok.co.uk/",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "php": "^7.2 | ^8.0",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "^5.3",
+    "spatie/phpunit-watcher": "^1.23",
+    "phpunit/phpunit": "^8.5",
+    "larapack/dd": "^1.1",
+    "squizlabs/php_codesniffer": "^3.5",
+    "mikey179/vfsstream": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "ElasticEmail\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "scripts": {
+    "phpunit": "vendor/bin/phpunit --testsuite Unit",
+    "phpunit:integration": "vendor/bin/phpunit --testsuite Integration",
+    "phpunit-watch-unit": "phpunit-watcher watch --testsuite Unit"
+  }
+}

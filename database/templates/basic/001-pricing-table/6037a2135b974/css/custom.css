@@ -1,0 +1,25 @@
+body {
+    font-size: 17px;
+    line-height: 1.8;
+    font-family: Roboto, Arial, Helvetica, Verdana;
+    margin: 0px;
+    padding: 0px;
+}
+table p {
+    line-height: 1.8;
+}
+a {
+    color: #136bf5;
+}
+footer {
+    font-size: 16px;
+}
+.container {
+    max-width: 760px;
+}
+[builder-element=CellElement] .container {
+    padding: 0;
+}
+.social-icon:hover {
+    background-color: rgb(31, 101, 167)!important;
+}
